@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <title>Nias</title>
+    <link rel="stylesheet" href="../assets/lightgallery/css/lightgallery.css" />
+    <link rel="stylesheet" href="../assets/videojs/video-js.min.css" />
+    <link rel="stylesheet" href="../assets/lightgallery/css/lg-exif.min.css" />
+    <link rel="stylesheet" href="../assets/core.css" />
+    <link rel="stylesheet" href="../assets/theme.css" />
+</head>
+
+<body>
+
+    <div id="container">
+
+        <header>
+            <h1><a href="nias.html">N I A S</a></h1>
+        </header>
+
+        <nav class="breadcrumbs">
+            <a class="breadcrumb-item" href="../index.html">Home</a>&nbsp;/&nbsp;<a class="breadcrumb-item"
+                href="nias.html">Nias</a>
+        </nav>
+
+        <ul id="media" class="clearfix">
+
+            <li data-src="../images/nias/01.jpg" data-sub-html="" data-download-url="../images/nias/01.jpg"
+                data-filename="01.jpg">
+                <a href="../images/nias/01.jpg">
+                    <img src="../images/nias/01.jpg" width="150" height="100" alt="01.jpg" />
+                </a>
+            </li>
+
+            <li data-src="../images/nias/02.jpg" data-sub-html="" data-download-url="../images/nias/02.jpg"
+                data-filename="02.jpg">
+                <a href="../images/nias/02.jpg">
+                    <img src="../images/nias/02.jpg" width="150" height="100" alt="02.jpg" />
+                </a>
+            </li>
+
+            <li data-src="../images/nias/03.jpg" data-sub-html="" data-download-url="../images/nias/03.jpg"
+                data-filename="03.jpg">
+                <a href="../images/nias/03.jpg">
+                    <img src="../images/nias/03.jpg" width="150" height="100" alt="03.jpg" />
+                </a>
+            </li>
+
+            <li data-src="../images/nias/04.jpg" data-sub-html="" data-download-url="../images/nias/04.jpg"
+                data-filename="04.jpg">
+                <a href="../images/nias/04.jpg">
+                    <img src="../images/nias/04.jpg" width="150" height="100" alt="04.jpg" />
+                </a>
+            </li>
+
+            <li data-src="../images/nias/05.jpg" data-sub-html="" data-download-url="../images/nias/05.jpg"
+                data-filename="05.jpg">
+                <a href="../images/nias/05.jpg">
+                    <img src="../images/nias/05.jpg" width="150" height="100" alt="05.jpg" />
+                </a>
+            </li>
+
+            <li data-src="../images/nias/06.jpg" data-sub-html="" data-download-url="../images/nias/06.jpg"
+                data-filename="06.jpg">
+                <a href="../images/nias/06.jpg">
+                    <img src="../images/nias/06.jpg" width="150" height="100" alt="06.jpg" />
+                </a>
+            </li>
+
+            <li data-src="../images/nias/07.jpg" data-sub-html="" data-download-url="../images/nias/07.jpg"
+                data-filename="07.jpg">
+                <a href="../images/nias/07.jpg">
+                    <img src="../images/nias/07.jpg" width="150" height="100" alt="07.jpg" />
+                </a>
+            </li>
+
+            <li data-src="../images/nias/08.jpg" data-sub-html="" data-download-url="../images/nias/08.jpg"
+                data-filename="08.jpg">
+                <a href="../images/nias/08.jpg">
+                    <img src="../images/nias/08.jpg" width="150" height="100" alt="08.jpg" />
+                </a>
+            </li>
+
+            <li data-src="../images/nias/09.jpg" data-sub-html="" data-download-url="../images/nias/09.jpg"
+                data-filename="09.jpg">
+                <a href="../images/nias/09.jpg">
+                    <img src="../images/nias/09.jpg" width="150" height="100" alt="09.jpg" />
+                </a>
+            </li>
+
+            <li data-src="../images/nias/10.jpg" data-sub-html="" data-download-url="../images/nias/10.jpg"
+                data-filename="10.jpg">
+                <a href="../images/nias/10.jpg">
+                    <img src="../images/nias/10.jpg" width="150" height="100" alt="10.jpg" />
+                </a>
+            </li>
+
+            <li data-src="../images/nias/11.jpg" data-sub-html="" data-download-url="../images/nias/11.jpg"
+                data-filename="11.jpg">
+                <a href="../images/nias/11.jpg">
+                    <img src="../images/nias/11.jpg" width="150" height="100" alt="11.jpg" />
+                </a>
+            </li>
+
+            <li data-src="../images/nias/12.jpg" data-sub-html="" data-download-url="../images/nias/12.jpg"
+                data-filename="12.jpg">
+                <a href="../images/nias/12.jpg">
+                    <img src="../images/nias/12.jpg" width="150" height="100" alt="12.jpg" />
+                </a>
+            </li>
+
+        </ul>
+
+        <!-- Pagination -->
+
+        <!-- Zip file link -->
+
+        <!-- Optional footer -->
+
+    </div>
+
+    <!-- Video loader -->
+    <div id="videos"></div>
+    <!-- jQuery -->
+    <script src="../assets/jquery.min.js"></script>
+    <!-- VideoJS -->
+    <script src="../assets/videojs/video.min.js"></script>
+    <!-- LightGallery -->
+    <script src="../assets/lightgallery/js/lightgallery.js"></script>
+    <script src="../assets/lightgallery/js/lg-autoplay.js"></script>
+    <script src="../assets/lightgallery/js/lg-pager.js"></script>
+    <script src="../assets/lightgallery/js/lg-thumbnail.js"></script>
+    <script src="../assets/lightgallery/js/lg-video.js"></script>
+    <script src="../assets/lightgallery/js/lg-exif.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#media").lightGallery({
+                thumbWidth: 80,
+                controls: true,
+                loop: false,
+                download: true,
+                counter: true,
+                videojs: true
+            });
+        });
+    </script>
+
+</body>
+
+</html>
