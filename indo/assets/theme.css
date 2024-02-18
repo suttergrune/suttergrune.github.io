@@ -94,7 +94,6 @@ nav.breadcrumbs {
 #albums,
 #media {
   /* margin: 0em; */
-  /* comment shortcut: Ctrl + K + C */
   /* styles added: */
   text-align: center;
 }
@@ -103,7 +102,8 @@ nav.breadcrumbs {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
-  margin-right: 1em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
   margin-bottom: 1em;
   position: relative;
   overflow: hidden;
@@ -133,7 +133,8 @@ nav.breadcrumbs {
 
 #media li {
   float: left;
-  margin-right: 0.4em;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
   margin-bottom: 0.2em;
   position: relative;
   cursor: zoom-in;
